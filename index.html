@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav>
+      <div class="logo">
+        <i class="ph ph-music-notes"></i>
+        <h1>Mabuchi's With Music</h1>
+      </div>
+      <ul>
+        <li>
+          <a href="#">My Music</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="#">My Music</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Navbar End -->
+
+    <section class="container">
+      <audio id="audio" src="/music/Chelsy-I-Will_OST-Ao-Haru-Ride.mp3"></audio>
+      <main class="player">
+        <div class="album">
+          <img
+            src="https://i.pinimg.com/564x/4e/6d/f9/4e6df911ad9865b5d0d393abecd113f9.jpg"
+            alt="cover"
+          />
+        </div>
+        <div class="info">
+          <h2>Judul lagu</h2>
+          <p>Artist</p>
+        </div>
+        <div class="progress">
+          <p id="current_duration">00:00</p>
+          <span class="bar"> </span>
+          <p id="total_duration">00:00</p>
+        </div>
+        <div class="action">
+          <button><i class="ph-fill ph-skip-back"></i></button>
+          <button id="play_pause">
+            <i class="ph-fill ph-play"></i>
+            <i class="ph-fill ph-pause hidden"></i>
+          </button>
+          <button><i class="ph-fill ph-skip-forward"></i></button>
+        </div>
+      </main>
+      <div class="playlist">
+        <ul>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+        </ul>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

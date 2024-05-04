@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "album_cover": "https://cdn.pixabay.com/audio/2024/01/15/16-58-27-753_200x200.jpg",
+      "title": "For Her Chill Upbeat Summer Travel",
+      "artist": "Liderc",
+      "url": "/music/coverless-book-lofi-186307.mp3"
+    },
+    {
+      "id": "2",
+      "album_cover": "https://i.pinimg.com/564x/4e/6d/f9/4e6df911ad9865b5d0d393abecd113f9.jpg",
+      "title": "I Will",
+      "artist": "Chelsy",
+      "url": "/music/Chelsy-I-Will_OST Ao Haru Ride.mp3"
+    },
+    {
+      "id": "3",
+      "album_cover": "https://images.unsplash.com/photo-1714548529006-aea2b7530e6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8",
+      "title": "Movement",
+      "artist": "SoulProdMusic",
+      "url": "/music/movement-200697.mp3"
+    },
+    {
+      "id": "4",
+      "album_cover": "https://images.unsplash.com/photo-1714399727269-7883d5d66da2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8",
+      "title": "Perfect Beauty",
+      "artist": "Good_B_Music",
+      "url": "/music/perfect-beauty-191271.mp3"
+    },
+    {
+      "id": "5",
+      "album_cover": "https://images.unsplash.com/photo-1686715612818-11ab5b79770b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8",
+      "title": "Coverless Book (lofi)",
+      "artist": "MYAUDIOVISION",
+      "url": "/music/coverless-book-lofi-186307.mp3"
+    }
+  ]
+}
