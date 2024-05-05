@@ -171,6 +171,7 @@ nav ul li a:hover {
 }
 
 .player {
+  margin-top: -5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -203,9 +204,10 @@ nav ul li a:hover {
 }
 
 .playlist {
-  margin-top: 6rem;
+  margin-top: 12rem;
   width: 24rem;
   max-height: 30rem;
+
   /* background-color: var(--background-btn-muted); */
   background: linear-gradient(
     to right top,
@@ -213,6 +215,20 @@ nav ul li a:hover {
     rgb(107, 114, 128),
     rgb(107, 114, 128)
   );
+}
+
+.playlist li {
+  position: relative;
+}
+
+.playlist li.active::before {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: crimson;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .playlist ul {
@@ -303,7 +319,7 @@ nav ul li a:hover {
   .container {
     flex-direction: column;
     gap: 2rem;
-    margin-top: 250px;
+    margin-top: 270px;
   }
   .playlist {
     width: 100%;
@@ -318,10 +334,10 @@ nav ul li a:hover {
     width: 13rem;
   }
   .action {
-    gap: 0.5rem;
+    gap: 0.9rem;
   }
   .action button {
-    width: 3rem;
+    width: 3.2rem;
     font-size: 1.5rem;
   }
   .action button:has(> i#play_icon) {
