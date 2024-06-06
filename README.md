@@ -6,4 +6,4 @@
 
 DEMO PROJECT
 
-https://kou-music.netlify.app/
+https://simple-music-one.vercel.app/
